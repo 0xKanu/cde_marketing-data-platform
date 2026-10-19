@@ -1,6 +1,7 @@
 # secrets
 .env
 .env.*
+.venv/
 *.key
 *.token
 
@@ -13,3 +14,4 @@ __pycache__/
 
 # os stuff
 .DS_Store
+.user.yml

@@ -1,0 +1,9 @@
+[project]
+name = "marketing-analytics"
+version = "0.1.0"
+description = "dbt project + tooling for the CDE Marketing Data Platform"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "dbt-databricks>=1.12.5,<1.13",
+    "elementary-data[databricks]>=0.26,<0.27",
+]
